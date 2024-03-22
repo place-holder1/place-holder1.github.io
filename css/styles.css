@@ -104,7 +104,7 @@ main {
 
 .line-break {
     height: 1px; 
-    background-color: black;
+    background-color: var(--primary-color-2);
     /* overflow: hidden;  */
     width: 100%;
 }
