@@ -232,6 +232,7 @@ iframe {
     width: 80%;
     height: 500px;
 }
+
 .chloe-images img {
     width: 40%;
     height: 450px;
@@ -240,6 +241,11 @@ iframe {
 .cgt-215 img {
     width: 80%;
     height: 500px;
+}
+
+.music-section h1{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .contact-container {
