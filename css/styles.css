@@ -233,9 +233,24 @@ iframe {
     height: 500px;
 }
 
+pre{
+    font-size: 20px;
+    margin-bottom: -40px;
+}
+
 .chloe-images img {
     width: 40%;
-    height: 450px;
+    height: 400px;
+}
+
+.dialogue-images img {
+    width: 40%;
+    height: 350px;
+}
+
+.dialogue-images-2 img {
+    width: 30%;
+    height: 350px;
 }
 
 .cgt-215 img {

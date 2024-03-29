@@ -16,7 +16,6 @@
             <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
                 <a href="music.html">Music</a>
                 <a href="contact.html">Contact</a>
             </div>
@@ -25,37 +24,240 @@
 
     <main>
         <div class="main-container">
-            <div class="home-container">
-                <div class="home-container-content">
-                    <h1>Hello and welcome to my portfolio!</h1>
+            <div class="project-container">
+                <h1>Elijah Gill</h1>
+                <h1>Game Designer</h1> 
+                <h2>As a Game Designer, I have skills in scripting, prototyping, documenting, technical design, and narrative. I also have skills in music and audio production.</h2>
+                <!-- <h2>Projects I've created at my time at Purdue</h2> -->
 
-                    <p>I am a Game Development & Web Development double major with a English & Creative Writing double minor.  My skills include C++, C# HTML, CSS, & JavaScript, Music Production, and Creative Writing. </p>
+                <div class="line-break">
+                </div>
+                <div class="project-section">
+                    <h1>Scrap Metal Studios: Project Dyscharged</h1>
+                        <p> Formed in <b>March 2023</b> from Game Developers United, Scrap Metal Studios is a voluntary student-led team functioning as an industry-standard game development studio.  We are a hybrid studio that hosts weekly meetings and check-ups to see everyone's progress.  We communicate via Discord and in-person meetups.
+                            <br>
+                            <br>
+                            I am currently the <b>Narrative Designer</b> for Scrap Metal Studios.  However, I am rather flexible with my role as sometimes I'll help contribute to others.  The diagram below highlights my general role in the studio currently.
+                            <br>
+                            <br>
+                            <img src="images/DIagramTest.png" alt="">
+                            <br>
+                            <br>
+                            <!-- </p>
+                            <div class="studio-images">
+                                <img src="images/ScrapStudioLogo.png" alt="">
+                            </div>
+                            <br>
+                            <br>
+                            <p> -->
+                            The majority of our communication and documentation is through Discord.  While it is difficult to showcase a combination of messages, I can
 
-                    <p>Currently, I am a Game Designer and Programmer looking forward to revolutionize the game industry!  I am versatile with my productivity as I focus on the scripting, prototyping, documenting, designing, narrative, and music production.</p>
-                        
-                    <p> I'm currently in a student-lead studio called <b>Scrap Metal Studios</b> as a narrative designer and one of the founding members.  Formed in March 2023, we are a Purdue Univesity-based student-led studio working on a 2.5D pixel art Unreal Engine game.  Our project, Project: Dyscharged, is a voluntary passion project for all of us as we focus primarily on our coursework.  We host weekly meetings and strong comfort vibes as the team develops the game on the side with strong chemistry.</p>
+                            <br>
+                            <br>
 
-                    <p>I am still enthusiastically seeking opportunities to expand knowledge and skills through continuous learning and professional development initiatives.  I only plan to fail forward in order to reach my dreams.</p>
+                            I have created a divisive narrative structure, drafting dialogue for each main protagonist and antagonist in a desolate environment for studio members to implement their creative thought process.  These are some of the documents I've made during the beginning of the studio.
+
+                            <!-- <iframe src="files/documents/Junkyard Characterization.pdf" type="application/pdf" frameborder="0" scrolling="auto"></iframe> -->
+                            <br>
+                            <br>
+                            <script>
+                                function swapPDF(pdfURL) {
+                                  document.getElementById('pdfViewer').setAttribute('src', pdfURL);
+                                }
+                              </script>
+                              </head>
+                              <body>
+                                <button onclick="swapPDF('files/documents/Junkyard Characterization.pdf')">Load Junkyard Characterization</button>
+                                <button onclick="swapPDF('files/documents/dialogue.pdf')">Load Dialogue</button>
+                                <button onclick="swapPDF('files/documents/BossRoom.pdf')">Load Boss Room</button>
+                                
+                                <iframe id="pdfViewer" src="files/documents/Junkyard Characterization.pdf" width="100%" height="500px"></iframe>
+                            <br>
+                            <br>
+                            <br>
+                            In March 2024, <b>Chloe Ng</b>, drafted based on my provided description for a couple of NPCs.  One the left, I described an frail, wise "grandma" bot with longevity and wisdom.  On the right, I described a home assistant bot capable of multitasking home activities.
+                            <div class="credit">
+                                <h2><i><u>Credit: Chloe Ng, Artist of Scrap Metal Studios</u></i></h2>
+                                </div>
+                            <div class="chloe-images">
+                            <img src="images/image0.jpg" alt="">
+                            <img src="images/image1.jpg" alt="">
+                            <pre>         Frail, wise "grandma" bot              Home assistant multitasking bot</pre>
+                            </div>
+
+
+                            
+                             <!-- However, I am versatile with my work as I've also worked on providing resources to my team and filling roles whenever necessary.  One of my examples include reinventing a battle theme our music producer prototyped, providing a blueprint to finalizing the battle theme. -->
+                        </p>
+    
+                </div>
+
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Dialogue System(s)</h1>
+                    <p>As I'm interested in narrative designing, I am always fond of trying to create dialogue systems.
                     <br>
+                    <br>
+                    In Unreal Engine 5, I have made two different versions of dialogue systems: Simple & Dynamic.  A simple dialogue system involves interacting NPCs within proximity.  A dynamic dialogue system I have in mind includes having different conversations and choices every interact prompt based on stats.
+                    </p>
+                    <div class="dialogue-images">
+                        <img src="images/Dialogue1.png" alt="">
+                        <img src="images/Dialogue2.png" alt="">
+                        <pre>           Simple Dialogue System                     Dynamic Dialogue System</pre>
+                    </div>
+                    <br>
+                    <br>
+                    <p>
+                        Each conversation will have its own unique ID in the dialogue tree.  Once a choice has been made, it will then draw a reference to the conversation ID.  I designed this for Scrap Metal Studio programmers to gather reference of what they need to create.
+                    </p>
+                    <div class="dialogue-images-2">
+                        <img src="images/dialogue-tree-doc.png" alt="" height="500px">
+                    </div>
+                    <pre>          Dialogue Tree</pre>
+                </div>
+                
+                <br>
+                <br>
 
-                    <p><i>"Success is not the result of spontaneous combustion. You must set yourself on fire." - Arnold H. Glasow
-                    </i>
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Data Visualization & Programming</h1>
+                    <p>An introduction to learning how to examine and create data visualizations using Excel and P5.js.
+                        <br>
+                        <br>
+                        For my <a href="https://editor.p5js.org/carlcarl/sketches/BsHo6Kw4H"><b>final project</b></a>, I worked with Aaron White to create a data visualization of measurements of the human body.  I was the programmer and debugger for this project.  The only known issue with the code is the dropdown positioning due to p5.js and JavaScript conflicting with each other.  However, the professor was impressed at the complexity so he let it slide.  The project is better viewed on the actual site.
+                        </p>
+
+                        <iframe src="https://editor.p5js.org/carlcarl/full/BsHo6Kw4H"></iframe>
+                </div>
+                <!-- <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>CGT 215: Computer Graphics Programming I</h1>
+                    <p>Experiencing C++ through SFML library using Professor Jeffery Kesselman's physics library, I
+                    <br>
+                    <br>
+                    Currently, this is an ongoing project for me.  This is currently my in-progress work.</p>
+                </div>
+                <div class="line-break"></div> -->
+                <!-- <div class="line-break"></div>
+
+                <h2>Current In-Progress Projects</h2> -->
+
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Computer Graphics Programming: Asteroids</h1>
+                    <p>Using C++ with SFML library with Professor Kesselman's physics library, my goal is to recreate Asteroids in Visual Studio.  As someone who is familar with C++, I really like to tackle this amazing challenge set to me.
+                    <br>
+                    <br>
+                    On top of programming, I plan to design my own version of Asteroids.  The design plan is for the player to destroy as many asteroids as they can until they collide with an asteroid.  The player has one life, and the difficulty progresses adaptively based on how long each asteroid is destroyed.
+                    <br>
+                    <br>
+                    This is currently my in-progress work.</p>
+                    <div class="cgt-215">
+                        <video controls width="80%">
+                            <source src="files/Asteroid.mp4" type="video/mp4">
+                            <!-- Fallback content -->
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </div>
+
+                <!-- <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Geometric Modeling For Visualization And Communication</h1>
+                    <p>I was introduced to using Maya, an industry standard 3D modeling and animation software.
+                        <br>
+                        <br>
+                        For my final project, I modeled an isometric minimalistic bedroom, showcasing the environment industry workers are comfortable with for remote work. 
                     </p>
 
-                    <!-- <div class="home-container-image">
-                        <img src="images/gill113@purdue.edu-d7614872.jpg" alt="" srcset="">
-                    </div> -->
-                    <div class="line-break"></div>
-                    <div class="credit">
-                    <h2>Scrap Metal Studios: Project Dyscharged</h2>
-                    <h4><i>Credit: Will Schonfield, Lead Artist of Scrap Metal Studios</i></h4>
-                    </div>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="CGT 116 Final" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3cc50d0e316f468785835de2353b816c/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/cgt-116-final-3cc50d0e316f468785835de2353b816c?utm_medium=embed&utm_campaign=share-popup&utm_content=3cc50d0e316f468785835de2353b816c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> </a> <a href="https://sketchfab.com/gill113?utm_medium=embed&utm_campaign=share-popup&utm_content=3cc50d0e316f468785835de2353b816c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> </a> <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=3cc50d0e316f468785835de2353b816c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"></a></p></div>
+                </div>
 
-                    <div class="studio-images">
-                    <img src="images/ScrapStudioLogo.png" alt="">
-                    <img src="images/Scrap.gif" alt="">
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Fundamentals Of Imaging Technology</h1>
+                    <p>Creating raster and vector illustrations through computer programs such as P5.js and Adobe, I delved deep into color theory, perception, and image manipulation.
+                    <br>
+                    <br>
+                    One of my best works in this class is a recreation of the Sydney Lego set.  It was a very intensive project for me as I manually drew nearly every single line and reshade on Adobe Illustrator.</p>
+                    <div class="lego-set">
+                        <img src="images/legofinal.jpg" alt="">
+                     
                     </div>
-                    
+                </div> -->
+
+                <!-- <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Data Visualization & Programming</h1>
+                    <p>An introduction to learning how to examine and create data visualizations using Excel and P5.js.
+                        <br>
+                        <br>
+                        For my <a href="https://editor.p5js.org/carlcarl/sketches/BsHo6Kw4H"><b>final project</b></a>, I worked with Aaron White to create a data visualization of measurements of the human body.  I was the programmer and debugger for this project.  The only known issue with the code is the dropdown positioning due to p5.js and JavaScript conflicting with each other.  However, the professor was impressed at the complexity so he let it slide.  The project is better viewed on the actual site.
+                        </p>
+
+                        <iframe src="https://editor.p5js.org/carlcarl/full/BsHo6Kw4H"></iframe>
+                </div>
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>CGT 215: Computer Graphics Programming I</h1>
+                    <p>Experiencing C++ through SFML library using Professor Jeffery Kesselman's physics library, I
+                    <br>
+                    <br>
+                    Currently, this is an ongoing project for me.  This is currently my in-progress work.</p>
+                </div>
+                <div class="line-break"></div>
+                <div class="line-break"></div>
+
+                <h2>Current In-Progress Projects</h2>
+
+                <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Computer Graphics Programming: Asteroids</h1>
+                    <p>Using C++ with SFML library with Professor Kesselman's physics library, my goal is to recreate Asteroids in Visual Studio.  As someone who is familar with C++, I really like to tackle this amazing challenge set to me.
+                    <br>
+                    <br>
+                    This is currently my in-progress work as it's a tough cookie to crack.</p>
+                    <div class="cgt-215">
+                        <img src="images/CGT215.png" alt="">
+                    </div>
+                </div>
+
+                <!-- <div class="line-break"></div>
+                <div class="project-section">
+                    <h1>Music Production</h1>
+                    <p>
+                        These are currently my music files I've currently made in a program called LMMS.  My expertise is creating battle and boss themes, while on occasion also creating ambience.
+                        <br>
+                        <br>
+                        A reinvent of the battle theme for Scrap Metal Studio's Project: Dyscharged, paving a blueprint to finalizing the battle theme.
+                        <br>
+                        <br>
+                        <audio controls>
+                            <source src="files/remixed-combat-theme.wav" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                          </audio>
+                          <br>
+                          <br>
+                          A boss theme I've made with the mind of focusing.
+                          <br>
+                          <br>
+                          <audio controls>
+                            <source src="files/remixed-combat-theme.wav" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                          </audio>
+                          <br>
+                          <br>
+                          A prototype boss theme with hefty amounts of music theory involved.  It's currently incomplete, but I plan on finishing this masterpiece!
+                          <br>
+                          <br>
+                          <audio controls>
+                            <source src="files/paino.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                          </audio>
+                          <br>
+                          <br>
+                    </p> -->
                 </div>
             </div>
         </div>
